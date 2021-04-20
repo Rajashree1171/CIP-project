@@ -1,4 +1,4 @@
-package com.example.inthujan.finalproject;
+package com.example.finalproject;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -57,7 +57,7 @@ public class CancelActivity extends AppCompatActivity {
         databaseReference1.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                String busDetailName=dataSnapshot.child("travelsName").getValue().toString();
+                String busDetailName=dataSnapshot.child("Name").getValue().toString();
                 String busDetailDate=dataSnapshot.child("date").getValue().toString();
                 String busDetailFrom=dataSnapshot.child("from").getValue().toString();
                 String busDetailTo=dataSnapshot.child("to").getValue().toString();
