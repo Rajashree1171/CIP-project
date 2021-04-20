@@ -1,4 +1,4 @@
-package com.example.inthujan.finalproject;
+package com.example.finalproject;
 
 public class Bus {
     public String busId;
