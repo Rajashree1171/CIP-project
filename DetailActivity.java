@@ -1,4 +1,4 @@
-package com.example.inthujan.finalproject;
+package com.example.finalproject;
 
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
